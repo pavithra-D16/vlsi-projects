@@ -1,2 +1,2 @@
-# vlsi-projects
-VLSI designs using verilog
+# vlsi projects
+learning vlsi and verilog design
