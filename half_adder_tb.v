@@ -1,6 +1,6 @@
 module tb;
   reg a, b;
-  wire y;
+  wire sum,carry;
   half_adder uut(.a(a),.b(b),.sum(sum),.carry(carry));
   initial begin
     a=0; b=0; #10;
