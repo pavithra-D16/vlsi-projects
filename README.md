@@ -33,4 +33,11 @@ by Pavithra | EEE Final Year Student
 - Output is 1 only when BOTH inputs are 0
 - [▶️ Run on EDA Playground](https://edaplayground.com/x/ddBc)
 
----
+### 6. XOR Gate
+- Output is 1 when inputs are DIFFERENT
+- [▶️ Run on EDA Playground](https://edaplayground.com/x/T59q)
+
+### 7. Half Adder
+- Adds two 1-bit numbers, gives Sum and Carry
+- Sum = XOR of inputs, Carry = AND of inputs
+- [▶️ Run on EDA Playground](https://edaplayground.com/x/n2Um)
