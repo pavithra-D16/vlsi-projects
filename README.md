@@ -41,3 +41,8 @@ by Pavithra | EEE Final Year Student
 - Adds two 1-bit numbers, gives Sum and Carry
 - Sum = XOR of inputs, Carry = AND of inputs
 - [▶️ Run on EDA Playground](https://edaplayground.com/x/n2Um)
+
+### 8. Full Adder
+- Adds three 1-bit numbers (a, b, carry_in)
+- Built using two Half Adders combined
+- [▶️ Run on EDA Playground](https://edaplayground.com/x/X9Fe)
