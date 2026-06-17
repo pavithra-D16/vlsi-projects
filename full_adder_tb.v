@@ -14,4 +14,4 @@ module tb;
     $finish;
   end
   initial $monitor("a=%b b=%b cin=%b sum=%b carry=%b",a,b,cin,sum,carry);
-   endmodule
+  endmodule
