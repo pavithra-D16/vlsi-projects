@@ -46,3 +46,8 @@ by Pavithra | EEE Final Year Student
 - Adds three 1-bit numbers (a, b, carry_in)
 - Built using two Half Adders combined
 - [▶️ Run on EDA Playground](https://edaplayground.com/x/X9Fe)
+
+### 9. 4-bit Ripple Carry Adder
+- Adds two 4-bit binary numbers using 4 chained Full Adders
+- Carry "ripples" from one Full Adder to the next
+- [▶️ Run on EDA Playground](https://edaplayground.com/x/Uwfk)
