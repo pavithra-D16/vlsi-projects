@@ -51,3 +51,16 @@ by Pavithra | EEE Final Year Student
 - Adds two 4-bit binary numbers using 4 chained Full Adders
 - Carry "ripples" from one Full Adder to the next
 - [▶️ Run on EDA Playground](https://edaplayground.com/x/Uwfk)
+
+### 10. 2:1 Multiplexer (MUX)
+- Selects one of two inputs based on sel line
+- sel=0 → y=a, sel=1 → y=b
+- [▶️ Run on EDA Playground](https://edaplayground.com/x/kRSJ)
+
+### 11. 1:2 Demultiplexer (DEMUX)
+- Sends one input to one of two outputs based on sel line
+- [▶️ Run on EDA Playground](https://edaplayground.com/x/ficP)
+
+### 12. 4:2 Encoder
+- Converts one active input (one-hot) into 2-bit binary code
+- [▶️ Run on EDA Playground](https://edaplayground.com/x/cRvP)
