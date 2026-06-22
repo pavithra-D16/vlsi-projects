@@ -64,3 +64,8 @@ by Pavithra | EEE Final Year Student
 ### 12. 4:2 Encoder
 - Converts one active input (one-hot) into 2-bit binary code
 - [▶️ Run on EDA Playground](https://edaplayground.com/x/cRvP)
+
+### 13. 2:4 Decoder
+- Converts 2-bit binary input into one active output
+- Only ONE output becomes 1 at a time
+- [▶️ Run on EDA Playground](https://edaplayground.com/x/rCDX)
