@@ -69,3 +69,15 @@ by Pavithra | EEE Final Year Student
 - Converts 2-bit binary input into one active output
 - Only ONE output becomes 1 at a time
 - [▶️ Run on EDA Playground](https://edaplayground.com/x/rCDX)
+
+### 14. D Flip Flop
+- Sequential circuit with memory
+- Q copies D only at rising clock edge
+- Output remembers previous value between clock edges
+- [▶️ Run on EDA Playground](https://edaplayground.com/x/ajaA)
+
+### 15. JK Flip Flop
+- Sequential circuit with Set, Reset and Toggle functions
+- J=0,K=0 → No change | J=0,K=1 → Reset
+- J=1,K=0 → Set | J=1,K=1 → Toggle
+- [▶️ Run on EDA Playground](https://edaplayground.com/x/7niJ)
