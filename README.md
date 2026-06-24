@@ -81,3 +81,15 @@ by Pavithra | EEE Final Year Student
 - J=0,K=0 → No change | J=0,K=1 → Reset
 - J=1,K=0 → Set | J=1,K=1 → Toggle
 - [▶️ Run on EDA Playground](https://edaplayground.com/x/7niJ)
+
+### 16. 4-bit Register
+- Stores 4 bits of data using 4 D Flip Flops
+- All 4 bits update together at rising clock edge
+- Used as temporary memory inside processors
+- [▶️ Run on EDA Playground](https://edaplayground.com/x/VvkF)
+
+### 17. 4-bit Up Counter
+- Counts from 0 to 15 automatically on each clock pulse
+- Reset signal forces counter back to 0
+- After reaching 15 (1111), automatically goes back to 0
+- [▶️ Run on EDA Playground](https://edaplayground.com/x/fpLW)
