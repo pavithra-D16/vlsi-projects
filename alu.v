@@ -1,3 +1,7 @@
+// Module: ALU - Arithmetic Logic Unit
+// Description: Performs 6 operations (Add,Sub,AND,OR,NOT,XOR) using 3-bit opcode
+// Author: Pavithra | EEE Final Year
+
 module alu(input [3:0]a,b,
            input [2:0] opcode,output reg [3:0] result);
   always @(*) begin
