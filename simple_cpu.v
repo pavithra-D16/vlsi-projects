@@ -1,3 +1,7 @@
+// Module: Simple CPU
+// Description: Combines Register and ALU - implements fetch, store and execute stages
+// Author: Pavithra | EEE Final Year
+
 module simple_cpu(input [3:0] a, b,input [2:0] opcode,input clk, reset,output reg[3:0] result);
   reg [3:0] reg_a,reg_b;
   //Register stage - store inputs on clock edge

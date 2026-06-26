@@ -1,3 +1,7 @@
+// Module: 4-bit Ripple Carry Adder
+// Description: Adds two 4-bit numbers using 4 chained Full Adders
+// Author: Pavithra | EEE Final Year
+
 module ripple_adder(input [3:0] a, b,input cin,output [3:0] sum,output cout);
 wire c1, c2, c3;
   full_adder fa0(.a(a[0]), .b(b[0]), .cin(cin), .sum(sum[0]), .carry(c1));
