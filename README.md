@@ -93,3 +93,21 @@ by Pavithra | EEE Final Year Student
 - Reset signal forces counter back to 0
 - After reaching 15 (1111), automatically goes back to 0
 - [▶️ Run on EDA Playground](https://edaplayground.com/x/fpLW)
+
+### 18. ALU (Arithmetic Logic Unit)
+- The heart of every processor!
+- Performs 6 operations based on 3-bit opcode:
+  - 000 → Addition
+  - 001 → Subtraction
+  - 010 → AND
+  - 011 → OR
+  - 100 → NOT
+  - 101 → XOR
+- [▶️ Run on EDA Playground](https://edaplayground.com/x/MV2V)
+
+### 19. Simple CPU
+- Combines Register + ALU into a working processor!
+- Stage 1: Stores input data in registers on clock edge
+- Stage 2: ALU processes stored data based on opcode
+- Supports 6 operations: Add, Sub, AND, OR, NOT, XOR
+- [▶️ Run on EDA Playground](https://edaplayground.com/x/8gt6)
