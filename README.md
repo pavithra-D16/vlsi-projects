@@ -1,113 +1,66 @@
 # VLSI Projects 🔌
 
-A collection of digital circuit designs using Verilog HDL
-by Pavithra | EEE Final Year Student
+A collection of digital circuit designs using Verilog HDL  
+**Author:** Pavithra | EEE Final Year Student  
+**Tools:** EDA Playground (Icarus Verilog 12.0) | Git & GitHub
+
+---
+
+## 🎯 About This Project
+Built 19 digital circuits from scratch in 20 days — starting from basic logic gates and progressing to a working Simple CPU. All circuits are simulated and verified using Verilog HDL.
+
+---
+
+## 📁 Projects
+
+### ⚡ Basic Logic Gates
+| Circuit | Description | Simulation |
+|---------|-------------|------------|
+| AND Gate | Output 1 only when both inputs are 1 | [▶️ Run](https://edaplayground.com/x/uDD3) |
+| OR Gate | Output 1 when any input is 1 | [▶️ Run](https://edaplayground.com/x/nGdn) |
+| NOT Gate | Output is opposite of input | [▶️ Run](https://edaplayground.com/x/fdAg) |
+| NAND Gate | Output 0 only when both inputs are 1 | [▶️ Run](https://edaplayground.com/x/ExUQ) |
+| NOR Gate | Output 1 only when both inputs are 0 | [▶️ Run](https://edaplayground.com/x/ddBc) |
+| XOR Gate | Output 1 when inputs are different | [▶️ Run](https://edaplayground.com/x/T59q) |
+
+### 🧮 Combinational Circuits
+| Circuit | Description | Simulation |
+|---------|-------------|------------|
+| Half Adder | Adds two 1-bit numbers | [▶️ Run](https://edaplayground.com/x/n2Um) |
+| Full Adder | Adds three 1-bit numbers | [▶️ Run](https://edaplayground.com/x/X9Fe) |
+| 4-bit Ripple Carry Adder | Adds two 4-bit numbers | [▶️ Run](https://edaplayground.com/x/Uwfk) |
+| 2:1 Multiplexer | Selects one of two inputs | [▶️ Run](https://edaplayground.com/x/kRSJ) |
+| 1:2 Demultiplexer | Routes input to one of two outputs | [▶️ Run](https://edaplayground.com/x/ficP) |
+| 4:2 Encoder | Converts one-hot input to binary | [▶️ Run](https://edaplayground.com/x/cRvP) |
+| 2:4 Decoder | Converts binary to one-hot output | [▶️ Run](https://edaplayground.com/x/rCDX) |
+
+### 🧠 Sequential Circuits
+| Circuit | Description | Simulation |
+|---------|-------------|------------|
+| D Flip Flop | Stores 1 bit on clock edge | [▶️ Run](https://edaplayground.com/x/ajaA) |
+| JK Flip Flop | Set, Reset and Toggle operations | [▶️ Run](https://edaplayground.com/x/7niJ) |
+| 4-bit Register | Stores 4 bits on clock edge | [▶️ Run](https://edaplayground.com/x/VvkF) |
+| 4-bit Counter | Counts 0-15 automatically | [▶️ Run](https://edaplayground.com/x/fpLW) |
+
+### ⚙️ Processor Design
+| Circuit | Description | Simulation |
+|---------|-------------|------------|
+| ALU | Performs 6 arithmetic/logic operations | [▶️ Run](https://edaplayground.com/x/MV2V) |
+| Simple CPU | Combines Register + ALU into a processor | [▶️ Run](https://edaplayground.com/x/8gt6) |
+
+---
+
+## 📅 Progress
+- [x] Basic Logic Gates (6 circuits)
+- [x] Combinational Circuits (7 circuits)
+- [x] Sequential Circuits (4 circuits)
+- [x] Processor Design (2 circuits)
+
+**Total: 19 circuits | 38+ Verilog files**
 
 ---
 
 ## 🛠️ Tools Used
 - EDA Playground (Icarus Verilog 12.0)
 - Git & GitHub
-
----
-
-## 📁 Projects
-
-### 1. AND Gate
-- Output is 1 only when BOTH inputs are 1
-- [▶️ Run on EDA Playground](https://edaplayground.com/x/uDD3)
-
-### 2. OR Gate
-- Output is 1 when ANY one input is 1
-- [▶️ Run on EDA Playground](https://edaplayground.com/x/nGdn)
-
-### 3. NOT Gate
-- Output is always OPPOSITE of input
-- [▶️ Run on EDA Playground](https://edaplayground.com/x/fdAg)
-
-### 4. NAND Gate
-- Output is 0 only when BOTH inputs are 1
-- [▶️ Run on EDA Playground](https://edaplayground.com/x/ExUQ)
-
-### 5. NOR Gate
-- Output is 1 only when BOTH inputs are 0
-- [▶️ Run on EDA Playground](https://edaplayground.com/x/ddBc)
-
-### 6. XOR Gate
-- Output is 1 when inputs are DIFFERENT
-- [▶️ Run on EDA Playground](https://edaplayground.com/x/T59q)
-
-### 7. Half Adder
-- Adds two 1-bit numbers, gives Sum and Carry
-- Sum = XOR of inputs, Carry = AND of inputs
-- [▶️ Run on EDA Playground](https://edaplayground.com/x/n2Um)
-
-### 8. Full Adder
-- Adds three 1-bit numbers (a, b, carry_in)
-- Built using two Half Adders combined
-- [▶️ Run on EDA Playground](https://edaplayground.com/x/X9Fe)
-
-### 9. 4-bit Ripple Carry Adder
-- Adds two 4-bit binary numbers using 4 chained Full Adders
-- Carry "ripples" from one Full Adder to the next
-- [▶️ Run on EDA Playground](https://edaplayground.com/x/Uwfk)
-
-### 10. 2:1 Multiplexer (MUX)
-- Selects one of two inputs based on sel line
-- sel=0 → y=a, sel=1 → y=b
-- [▶️ Run on EDA Playground](https://edaplayground.com/x/kRSJ)
-
-### 11. 1:2 Demultiplexer (DEMUX)
-- Sends one input to one of two outputs based on sel line
-- [▶️ Run on EDA Playground](https://edaplayground.com/x/ficP)
-
-### 12. 4:2 Encoder
-- Converts one active input (one-hot) into 2-bit binary code
-- [▶️ Run on EDA Playground](https://edaplayground.com/x/cRvP)
-
-### 13. 2:4 Decoder
-- Converts 2-bit binary input into one active output
-- Only ONE output becomes 1 at a time
-- [▶️ Run on EDA Playground](https://edaplayground.com/x/rCDX)
-
-### 14. D Flip Flop
-- Sequential circuit with memory
-- Q copies D only at rising clock edge
-- Output remembers previous value between clock edges
-- [▶️ Run on EDA Playground](https://edaplayground.com/x/ajaA)
-
-### 15. JK Flip Flop
-- Sequential circuit with Set, Reset and Toggle functions
-- J=0,K=0 → No change | J=0,K=1 → Reset
-- J=1,K=0 → Set | J=1,K=1 → Toggle
-- [▶️ Run on EDA Playground](https://edaplayground.com/x/7niJ)
-
-### 16. 4-bit Register
-- Stores 4 bits of data using 4 D Flip Flops
-- All 4 bits update together at rising clock edge
-- Used as temporary memory inside processors
-- [▶️ Run on EDA Playground](https://edaplayground.com/x/VvkF)
-
-### 17. 4-bit Up Counter
-- Counts from 0 to 15 automatically on each clock pulse
-- Reset signal forces counter back to 0
-- After reaching 15 (1111), automatically goes back to 0
-- [▶️ Run on EDA Playground](https://edaplayground.com/x/fpLW)
-
-### 18. ALU (Arithmetic Logic Unit)
-- The heart of every processor!
-- Performs 6 operations based on 3-bit opcode:
-  - 000 → Addition
-  - 001 → Subtraction
-  - 010 → AND
-  - 011 → OR
-  - 100 → NOT
-  - 101 → XOR
-- [▶️ Run on EDA Playground](https://edaplayground.com/x/MV2V)
-
-### 19. Simple CPU
-- Combines Register + ALU into a working processor!
-- Stage 1: Stores input data in registers on clock edge
-- Stage 2: ALU processes stored data based on opcode
-- Supports 6 operations: Add, Sub, AND, OR, NOT, XOR
-- [▶️ Run on EDA Playground](https://edaplayground.com/x/8gt6)
+- VS Code
