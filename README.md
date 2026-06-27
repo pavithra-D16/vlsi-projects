@@ -7,7 +7,7 @@ A collection of digital circuit designs using Verilog HDL
 ---
 
 ## 🎯 About This Project
-Built 19 digital circuits from scratch in 20 days — starting from basic logic gates and progressing to a working Simple CPU. All circuits are simulated and verified using Verilog HDL.
+Built 19 digital circuits — starting from basic logic gates and progressing to a working Simple CPU. All circuits are simulated and verified using Verilog HDL.
 
 ---
 
